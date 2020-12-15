@@ -7,7 +7,11 @@
 
 #import "EaseUserDelegate.h"
 #import <UIKit/UIKit.h>
+#if __has_include(<Hyphenate/Hyphenate.h>)
 #import <Hyphenate/Hyphenate.h>
+#elseif __has_include(<HyphenateLite/HyphenateLite.h>)
+#import <HyphenateLite/HyphenateLite.h>
+#endif
 NS_ASSUME_NONNULL_BEGIN
 
 @interface EaseConversationModel : NSObject

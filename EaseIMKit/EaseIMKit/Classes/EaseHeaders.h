@@ -1,14 +1,12 @@
-//
-//  EMHelper.h
-//  ChatDemo-UI3.0
-//
-//  Created by XieYajie on 2019/2/22.
-//  Copyright © 2019 XieYajie. All rights reserved.
-//
 
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
+
+#if __has_include(<Hyphenate/Hyphenate.h>)
 #import <Hyphenate/Hyphenate.h>
+#elseif __has_include(<HyphenateLite/HyphenateLite.h>)
+#import <HyphenateLite/HyphenateLite.h>
+#endif
 
 #import <Masonry/Masonry.h>
 

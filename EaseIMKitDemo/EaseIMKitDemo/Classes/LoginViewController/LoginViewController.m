@@ -7,7 +7,11 @@
 //
 
 #import "LoginViewController.h"
+#if __has_include(<Hyphenate/Hyphenate.h>)
 #import <Hyphenate/Hyphenate.h>
+#elseif __has_include(<HyphenateLite/HyphenateLite.h>)
+#import <HyphenateLite/HyphenateLite.h>
+#endif
 
 @interface LoginViewController ()
 @property (weak, nonatomic) IBOutlet UITextField *usernameTextField;

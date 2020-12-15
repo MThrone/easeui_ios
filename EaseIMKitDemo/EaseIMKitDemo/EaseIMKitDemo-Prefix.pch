@@ -14,6 +14,10 @@
 #ifdef __OBJC__
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
-    #import <Hyphenate/Hyphenate.h>
+    #if __has_include(<Hyphenate/Hyphenate.h>)
+#import <Hyphenate/Hyphenate.h>
+#elseif __has_include(<HyphenateLite/HyphenateLite.h>)
+#import <HyphenateLite/HyphenateLite.h>
+#endif
     #import <EaseIMKit/EaseIMKit.h>
 #endif

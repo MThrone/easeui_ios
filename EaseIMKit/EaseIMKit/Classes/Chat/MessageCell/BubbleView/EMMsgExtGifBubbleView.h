@@ -1,9 +1,9 @@
 //
 //  EMMsgExtGifBubbleView.h
-//  ChatDemo-UI3.0
+//  EaseIMKit
 //
 //  Created by XieYajie on 2019/2/14.
-//  Copyright © 2019 XieYajie. All rights reserved.
+//  Update © 2020 zhangchong. All rights reserved.
 //
 
 #import <FLAnimatedImage/FLAnimatedImage.h>

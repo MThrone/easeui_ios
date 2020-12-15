@@ -46,5 +46,5 @@ typedef NS_ENUM(NSInteger, EaseIMKitCallBackReason) {
  */
 typedef NS_ENUM(NSInteger, EaseWeakRemind) {
     EaseWeakRemindSystemHint = 0,   //系统提示
-    EaseWeakRemindMsgTime = 10,             //消息时间
+    EaseWeakRemindMsgTime = 10,     //消息时间
 };
