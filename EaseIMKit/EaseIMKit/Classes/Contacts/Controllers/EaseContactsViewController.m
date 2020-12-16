@@ -11,7 +11,8 @@
 #import "UITableView+Refresh.h"
 #if __has_include(<Hyphenate/Hyphenate.h>)
 #import <Hyphenate/Hyphenate.h>
-#elseif __has_include(<HyphenateLite/HyphenateLite.h>)
+#endif
+#if __has_include(<HyphenateLite/HyphenateLite.h>)
 #import <HyphenateLite/HyphenateLite.h>
 #endif
 #import <SDWebImage/UIImageView+WebCache.h>
