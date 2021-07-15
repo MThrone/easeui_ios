@@ -34,8 +34,6 @@ Pod::Spec.new do |s|
         'EaseIMKit/EaseIMKit/Classes/Conversations/Controllers/EaseConversationsViewController.h',
         'EaseIMKit/EaseIMKit/Classes/Chat/EaseChatViewController.h',
         'EaseIMKit/EaseIMKit/Classes/Chat/EaseChatViewControllerDelegate.h',
-        'EaseIMKit/EaseIMKit/Classes/Chat/MessageCell/EaseMessageCell.h',
-        'EaseIMKit/EaseIMKit/Classes/Chat/MessageCell/BubbleView/EMMessageBubbleView.h',
         'EaseIMKit/EaseIMKit/Classes/Chat/ChatBar/MoreView/MoreFunction/EaseExtFuncModel.h',
         'EaseIMKit/EaseIMKit/Classes/Chat/ChatModels/EaseExtMenuModel.h',
         'EaseIMKit/EaseIMKit/Classes/Chat/ChatModels/EaseMessageModel.h',
