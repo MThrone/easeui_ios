@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-    s.name             = 'EaseIMKit'
+    s.name             = 'EaseIMKitVerify'
     s.version          = '2.0.1'
     s.summary = 'easemob im sdk UIKit'
     s.homepage = 'http://docs-im.easemob.com/im/ios/other/easeimkit'
