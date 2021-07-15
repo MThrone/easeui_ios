@@ -54,10 +54,10 @@ static const void *imagePickerKey = &imagePickerKey;
         return;
     }
     PHAuthorizationStatus permissions = -1;
-    /*
+    
     if (@available(iOS 14, *)) {
         permissions = PHAuthorizationStatusLimited;
-    }*/
+    }
     [PHPhotoLibrary requestAuthorization:^(PHAuthorizationStatus status) {
         dispatch_async(dispatch_get_main_queue(), ^{
             if (status == permissions) {

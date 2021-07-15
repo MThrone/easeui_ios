@@ -383,7 +383,6 @@
 		3C44F058269FDAFA00600B53 /* EaseHeaders.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C44EE44269FDAF700600B53 /* EaseHeaders.h */; };
 		3C44F074269FDF7100600B53 /* EaseIMKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C44F073269FDF7000600B53 /* EaseIMKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3C44F1E326A03D1F00600B53 /* EaseIMKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3C44F1E226A03D1E00600B53 /* EaseIMKit.bundle */; };
-		A8203C9FB7A8163FC78901E2 /* libPods-EaseIMKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 86B3A9C5379F4FE7F361DD34 /* libPods-EaseIMKit.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -778,7 +777,6 @@
 		3C44F073269FDF7000600B53 /* EaseIMKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EaseIMKit.h; sourceTree = "<group>"; };
 		3C44F1E226A03D1E00600B53 /* EaseIMKit.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = EaseIMKit.bundle; sourceTree = "<group>"; };
 		630E502CF3551DF7BBA31D4C /* Pods-EaseIMKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EaseIMKit.release.xcconfig"; path = "Target Support Files/Pods-EaseIMKit/Pods-EaseIMKit.release.xcconfig"; sourceTree = "<group>"; };
-		86B3A9C5379F4FE7F361DD34 /* libPods-EaseIMKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EaseIMKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		908930D8257651B100F50368 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/iOSSupport/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		90A039F0254A6E7600D57B73 /* EaseIMKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EaseIMKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		90A039F4254A6E7600D57B73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -789,7 +787,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8203C9FB7A8163FC78901E2 /* libPods-EaseIMKit.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1610,7 +1607,6 @@
 			isa = PBXGroup;
 			children = (
 				908930D8257651B100F50368 /* UIKit.framework */,
-				86B3A9C5379F4FE7F361DD34 /* libPods-EaseIMKit.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
