@@ -18,6 +18,9 @@
 
 #ifndef WAV_H
 #define WAV_H
+#endif
+
+#if defined __cplusplus
 
 #include <stdio.h>
 

@@ -36,7 +36,7 @@
     [self setupBubbleBackgroundImage];
     
     self.textLabel = [[UILabel alloc] init];
-    self.textLabel.font = [UIFont systemFontOfSize:_viewModel.contentFontSize];
+    self.textLabel.font = [UIFont systemFontOfSize:9.f];
     self.textLabel.numberOfLines = 0;
     [self addSubview:self.textLabel];
     [self.textLabel Ease_makeConstraints:^(EaseConstraintMaker *make) {
