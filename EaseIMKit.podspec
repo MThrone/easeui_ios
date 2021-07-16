@@ -52,6 +52,7 @@ Pod::Spec.new do |s|
      # 'EaseIMKit' => ['EaseIMKit/EaseIMKit/Assets/*.png']
     #}
     s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES',
+                              'VALID_ARCHS' => 'i386',
                               'VALIDATE_WORKSPACE' => 'YES' 
                             }
 
