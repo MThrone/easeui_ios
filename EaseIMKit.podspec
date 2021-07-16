@@ -51,11 +51,11 @@ Pod::Spec.new do |s|
     #s.resource_bundles = {
      # 'EaseIMKit' => ['EaseIMKit/EaseIMKit/Assets/*.png']
     #}
+    s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES',
+                              'VALIDATE_WORKSPACE' => 'YES' 
+                            }
+
     s.dependency 'HyphenateChat'
     s.dependency 'EMVoiceConvert', '0.1.0'
-    s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES',
-                              
-                              'VALIDATE_WORKSPACE' => 'YES',
-                              'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'  
-                            }
+
 end
